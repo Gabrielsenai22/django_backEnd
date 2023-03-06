@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for ultimo in ultimo %}
+
+    <h1>Nome: {{ultimo.cod_produto}}</h1>
+    <h1>Descrição: {{ultimo.descricao}}</h1>
+{% endfor %}
+{% for preco in preco %}
+    <h1>Preço: {{preco.valor}}</h1>
+{% endfor %}
+
+</body>
+</html>
